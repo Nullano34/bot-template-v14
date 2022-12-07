@@ -1,0 +1,56 @@
+{
+    "system": {
+        "shutdown": "Leállítás...",
+        "command": {
+            "not_found": "🚫 A parancs `{0}` nem található. Az elérhető parancsok listájának megtekintéséhez használja a „help” parancsot.",
+            "not_found_suggestion": "🚫 A parancs `{0}` nem található. Úgy értetted: `{0}`",
+            "not_enabled": "🚫 Ez a parancs `{0}` nem engedélyezett a szerveren.",
+            "enabled": "✅ A(z) `{0}` parancs engedélyezve ezen a szerveren.",
+            "disabled": "🚫 A(z) `{0}` parancs letiltva ezen a szerveren."
+        },
+        "permisson_denied_user": "🚫 {0}, Nincs engedélye a parancs használatához!",
+        "permisson_denied_bot": "🚫 {0}, Nincs `{1}` engedélyem a parancs használatához!",
+        "database": {
+            "not_enabled": "🚫 Az adatbázis nincs engedélyezve. Ezt a parancsot csak akkor használhatja, ha az adatbázis engedélyezve van. Ha el akarja végezni a műveletet, tegye azt manuálisan."
+        }
+    },
+    "commands": {
+        "ping": "🏓 Pong! Késleltetés: **{0} ms**",
+        "cooldown": "Még `{0}` másodperc cooldown-od van!",
+        "verify": {
+            "setup": "Ahhoz, hogy hozzáférjen a(z) `{0}` serverhez, el kell fogadnia a szabályokat. Kattintson az alábbi gombra az elfogadáshoz!",
+            "reply": "Sikeresen hozzáadva a szerepkört!"
+        },
+        "ticket": {
+            "setup": "A jegyre reagálva megnyílik egy csatorna, ahol beszélhet a személyzettel.",
+            "reply1": "✅ Sikeres jegycsatorna létrehozása! ({0})",
+            "reply2": "✅ Jegycsatorna sikeresen létrehozva itt: **{0}**! @here"
+        },
+        "group": {
+            "title": "📝 Csoport {0}lista",
+            "not_existing": "🚫 A(z) `{0}` csoport nem található!",
+            "already_existing": "🚫 A(z) `{0}` csoport már létezik!",
+            "created": "✅ A(z) `{0}` csoport sikeresen létrehozva!",
+            "deleted": "✅ A(z) `{0}` csoport sikeresen törölve!",
+            "added": "✅ A(z) {0} szerep sikeresen hozzáadva a(z) `{1}` csoporthoz!",
+            "removed": "✅ A(z) {0} szerep sikeresen eltávolítva a(z) `{1}` csoportból!"
+        },
+        "permission": {
+            "changed": "✅ A(z) `{0}` parancs engedélye sikeresen módosítva.            ",
+            "not_owner": "🚫 Nem te vagy a tulajdonosa ennek a robotnak. Nem állíthat be parancsengedélyt ***csak tulajdonosoknak***.",
+            "command_only_owner": "🚫 Nem te vagy a tulajdonosa ennek a robotnak. A parancs engedélyét nem módosíthatja ***csak tulajdonosok*** engedélyel lévő parancsnak."
+        },
+        "setup": {
+            "succesful": "A(z) {0} sikeresen beállítva.",
+            "error": "Valami elromlott."
+        },
+        "help": {
+            "title": "Segítség",
+            "description": "Segítség a parancsok használatához."
+        }
+    },
+    "expressions": {
+        "command": "Parancs",
+        "slashcommand": "Slash Parancs"
+    }  
+}
